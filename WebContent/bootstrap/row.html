@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap栅格系统 </title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+    
+    <div class="row">
+	  <div class="span4" style="background-color: red">你好啊，世界</div>
+	  <div class="span8 offset3" style="background-color: blue">你好啊，世界</div>
+	</div>
+	
+	<br><br><br>
+	
+	<div class="row">
+	  <div class="span9" style="background-color: gray">
+	    Level 1 column
+	    <div class="row">
+	      <div class="span6" style="background-color: red">Level 2</div>
+	      <div class="span3" style="background-color: blue">Level 2</div>
+	    </div>
+	  </div>
+	</div>
+	
+	<br><br><br>
+	<h2>流式栅格系统</h2>
+	<div class="row-fluid">
+	  <div class="span4" style="background-color: red">...</div>
+	  <div class="span6 offset1" style="background-color: blue">...</div>
+	</div>
+	
+	<br><br><br>
+	<div class="row-fluid">
+	  <div class="span12" style="background-color: gray">
+	    Fluid 12
+	    <div class="row-fluid">
+	      <div class="span6" style="background-color: red">
+	        Fluid 6
+	        <div class="row-fluid">
+	          <div class="span6" style="background-color: green">Fluid 6</div>
+	          <div class="span6" style="background-color: blue">Fluid 6</div>
+	        </div>
+	      </div>
+	      <div class="span6" style="background-color: pink">Fluid 6</div>
+	    </div>
+	  </div>
+	</div>
+	
+  </body>
+</html>
